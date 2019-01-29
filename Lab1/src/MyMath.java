@@ -43,16 +43,21 @@ public class MyMath {
 
     }
 
-    public static long myFactorial(int n)
+    public static boolean isPrime(int n)
     {
 
-        long nFact = 1;
+        int n;
 
-        for(int i=2;i<n;i++)
+    }
+
+    public static int myFactorial(int n)
+    {
+
+        int nFact = n;
+
+        for(int i = (n - 1); i > 1; i--)
         {
-
-            nFact *= i;
-
+            nFact = nFact * i;
         }
 
         return nFact;

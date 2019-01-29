@@ -22,7 +22,7 @@ public class TestMyMath {
 
         int powerResult;
 
-        powerResult = MyMath.myPower(4,9);
+        powerResult = MyMath.myPower(2,3);
 
         if(powerResult != 0)
             System.out.println("\n" + powerResult + "\n");
@@ -31,17 +31,22 @@ public class TestMyMath {
 
         //End of Test for myPower
 
+        //Testing isPrime()
+
+        boolean resultPrime =  MyMath.isPrime(7);
+
+        System.out.println(resultPrime);
+
+        //End of Test for isPrime()
+
 
         //Testing myFactorial
 
-        long factResult;
+        int factResult;
 
-        factResult = MyMath.myFactorial(4);
+        factResult = MyMath.myFactorial(5);
 
-        //if(factResult == 0)
-          //  System.out.print("Input was equal to 0");
-        //else
-            System.out.print(factResult);
+        System.out.print(factResult);
 
         //End of Test for myFactorial
     }
