@@ -45,6 +45,7 @@ public class Encryption {
 
                 noSpacesText += "x";
                 paddedText = noSpacesText;
+
             }
 
         }
