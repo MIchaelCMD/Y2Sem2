@@ -46,7 +46,9 @@ public class MyMath {
     public static boolean isPrime(int n)
     {
 
-        int n;
+
+        return true;
+        //int n;
 
     }
 
