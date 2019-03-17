@@ -11,6 +11,8 @@ public class Encryption {
 
         //noSpacesText  = plaintext.replaceAll(" ","");
 
+        //remove spaces
+
         for(int i = 0; i < plaintext.length(); i++)
         {
             if(plaintext.charAt(i) != ' ')

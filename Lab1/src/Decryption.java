@@ -1,8 +1,9 @@
 public class Decryption {
 
-    public static String decrypt()
+    public static String decrypt(int numCol,int numRow)
     {
         String plainText = "";
+
 
 
         return plainText;
