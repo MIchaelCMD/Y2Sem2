@@ -9,6 +9,8 @@ public class TestSchoolDetails {
         ClassDetails newClassDetails2 = new ClassDetails("Physics","9");
         newTimeTable.set(2,5,newClassDetails2);
 
+
+
     }
 
 }

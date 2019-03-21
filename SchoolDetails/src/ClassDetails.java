@@ -9,18 +9,23 @@ public class ClassDetails {
     }
 
     public String getName() {
+
         return name;
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
     public String getRoomNumber() {
+
         return roomNumber;
     }
 
     public void setRoomNumber(String roomNumber) {
+
         this.roomNumber = roomNumber;
+
     }
 }
